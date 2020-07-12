@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ///테스트로 이걸 짜는데 이게 맞음?
-        
+        ////asdasafsadfafds
+
     }
 }
