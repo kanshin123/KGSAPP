@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ///////여기서부터 코딩
+        ///완료 됨 
 
     }
 }
