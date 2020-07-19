@@ -33,7 +33,7 @@
             android:layout_marginBottom="24dp"
             android:padding="12dp"
             android:text="신용카드결제"
-            android:id="@+id/btn_signup"
+            android:id="@+id/btn_cardcharge"
             android:textColor="@color/colorWhite"
             android:theme="@style/RaisedButton"
             />
@@ -44,7 +44,7 @@
             android:layout_marginBottom="24dp"
             android:padding="12dp"
             android:text="무통장입금"
-            android:id="@+id/btn_signup"
+            android:id="@+id/btn_accountcharge"
             android:textColor="@color/colorWhite"
             android:theme="@style/RaisedButton"
             />
@@ -55,7 +55,7 @@
             android:layout_marginBottom="24dp"
             android:padding="12dp"
             android:text="모바일결제"
-            android:id="@+id/btn_signup"
+            android:id="@+id/btn_mobilecharge"
             android:textColor="@color/colorWhite"
             android:theme="@style/RaisedButton"
             />

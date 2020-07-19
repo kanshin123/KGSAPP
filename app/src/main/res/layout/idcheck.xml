@@ -24,8 +24,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
-            android:hint="아이디"
-            android:id="@+id/nickname"
+            android:hint="이메일"
+            android:id="@+id/email"
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="fill_parent"

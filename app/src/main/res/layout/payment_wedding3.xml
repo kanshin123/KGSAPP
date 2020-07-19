@@ -20,8 +20,8 @@
         android:layout_marginTop="24dp"
         android:layout_marginBottom="24dp"
         android:padding="12dp"
-        android:text="내 등급 설정"
-        android:id="@+id/btn_gradeset"
+        android:text="결혼식 정보"
+        android:id="@+id/btn_wddinginfo"
         android:textColor="@color/colorWhite"
         android:theme="@style/RaisedButton"
         />
@@ -32,12 +32,11 @@
             android:layout_marginTop="1dp"
             android:layout_marginBottom="24dp"
             android:padding="12dp"
-            android:text="지인등급 확인"
-            android:id="@+id/btn_gradecheck"
+            android:text="축의금 내기"
+            android:id="@+id/btn_payment"
             android:textColor="@color/colorWhite"
             android:theme="@style/RaisedButton"
             />
-
 
     </LinearLayout>
 </ScrollView>

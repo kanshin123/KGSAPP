@@ -21,7 +21,7 @@
         android:layout_marginBottom="24dp"
         android:padding="12dp"
         android:text="나의계좌:xxx(xx은행)"
-        android:id="@+id/btn_signup"
+        android:id="@+id/btn_accountinfo"
         android:textColor="@color/colorWhite"
         android:theme="@style/RaisedButton"
         />
@@ -33,7 +33,7 @@
             android:layout_marginBottom="24dp"
             android:padding="12dp"
             android:text="내 카드: xxx"
-            android:id="@+id/btn_signup"
+            android:id="@+id/btn_cardinfo"
             android:textColor="@color/colorWhite"
             android:theme="@style/RaisedButton"
             />
@@ -44,7 +44,7 @@
             android:layout_marginBottom="24dp"
             android:padding="12dp"
             android:text="나의 계좌변경하기"
-            android:id="@+id/btn_signup"
+            android:id="@+id/btn_accountchange"
             android:textColor="@color/colorWhite"
             android:theme="@style/RaisedButton"
             />
@@ -55,7 +55,7 @@
             android:layout_marginBottom="24dp"
             android:padding="12dp"
             android:text="내 카드 변경하기"
-            android:id="@+id/btn_signup"
+            android:id="@+id/btn_cardchange"
             android:textColor="@color/colorWhite"
             android:theme="@style/RaisedButton"
             />

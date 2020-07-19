@@ -62,7 +62,7 @@
             android:layout_marginBottom="24dp"
             android:padding="12dp"
             android:text="등록"
-            android:id="@+id/btn_signup"
+            android:id="@+id/btn_register"
             android:textColor="@color/colorWhite"
             android:theme="@style/RaisedButton"
             />
