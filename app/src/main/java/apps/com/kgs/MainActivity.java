@@ -1,7 +1,5 @@
 package apps.com.kgs;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -10,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.androidquery.AQuery;
 import com.androidquery.callback.AjaxCallback;
@@ -63,20 +63,15 @@ public class MainActivity extends AppCompatActivity {
 
     public void getLogin() {
         SharedPreferences location = getSharedPreferences("location", 0);
-        String lon = location.getString("lon", "0");
-        String lat = location.getString("lat", "0");
-        String uuid = location.getString("uuid", "1111");
         //Log.d("filename",fileName);
         AQuery aq = new AQuery(MainActivity.this);
         //aq.ajax(AppVar.API_ROOT + sListName + ".php?key=" + AppVar.API_KEY + "&last=" + sLastNo, JSONObject.class, new AjaxCallback<JSONObject>() {
-        aq.ajax("http://KGS.yunstone.com/ajax/join.php?nickname=" + nickname.getText().toString() + "&Greetings=" + greetings.getText().toString(),
+        aq.ajax("http://kgs.yunstone.com/ajax/kmember.php?nickname=" + nickname.getText().toString() + "&Greetings=" + greetings.getText().toString(),
                 JSONObject.class, new AjaxCallback<JSONObject>() {
                     @Override
                     public void callback(String url, JSONObject object, AjaxStatus status) {
                         try {
                             JSONObject oData = new JSONObject(object.toString());
-                            //peoples = jsonObj.getJSONArray(TAG_RESULTS);
-                            //JSONArray arrData = new JSONArray[];
                             JSONArray arrData = new JSONArray();
                             arrData.put(oData.getString("result"));
                             //JSONArray arrData = new JSONArray(oData.getString("result"));
