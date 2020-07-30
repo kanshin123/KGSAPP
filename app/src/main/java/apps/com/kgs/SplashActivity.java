@@ -42,6 +42,7 @@ import static apps.com.kgs.R.layout.activity_splash;
 import static com.androidquery.callback.AbstractAjaxCallback.cancel;
 
 
+
 /**
  * Created by yunstone on 2017-02-24.
  */
@@ -196,7 +197,7 @@ public class SplashActivity extends AppCompatActivity {
                         JSONObject oData = new JSONObject(object.toString());
                         //peoples = jsonObj.getJSONArray(TAG_RESULTS);
                         JSONArray arrData = new JSONArray(oData.getString("result"));
-                        Log.d("위치정보", "경도:" + lon + "위도:" + lat);
+                        Log.d("위치정보", "경도:" + lon + "위도:" + lat + " deviceid"  + deviceId);
 
                         ////////object가 없으면 이곳으로 들어올수없음/////
                         //for (int i = 0; i < arrData.length(); i++) {
@@ -209,7 +210,7 @@ public class SplashActivity extends AppCompatActivity {
 
                         if (logincheck.equals("0")) {
                             final Intent intent = new Intent();
-                            ComponentName name = new ComponentName("apps.minatalk.net.minatalk", "apps.minatalk.net.minatalk.policy");
+                            ComponentName name = new ComponentName("apps.com.kgs", "apps.com.kgs.policy");
                             intent.setComponent(name);
                             startActivityForResult(intent, 1001);
                         } else {
@@ -217,15 +218,15 @@ public class SplashActivity extends AppCompatActivity {
                             //Log.d("version", version);
 
                             TextView versionNtxt = (TextView) findViewById(R.id.versionNTxt);
-                            versionNtxt.setText("最新バージョン:" + version);
+                            versionNtxt.setText("최신버젼:" + version);
 
                             PackageInfo pInfo = null;
                             try {
-                                pInfo = getPackageManager().getPackageInfo("apps.minatalk.net.minatalk", PackageManager.GET_META_DATA);
+                                pInfo = getPackageManager().getPackageInfo("apps.com.kgs", PackageManager.GET_META_DATA);
                                 //Log.d("versionName", pInfo.versionName);
                                 versionName = pInfo.versionName;
                                 TextView versionPtxt = (TextView) findViewById(R.id.versionPTxt);
-                                versionPtxt.setText("現在のバージョン:" + versionName);
+                                versionPtxt.setText("현재버젼:" + versionName);
 
 
                             } catch (Exception e) {
