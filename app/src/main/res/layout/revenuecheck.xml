@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:padding="5dp">
+
+
+    <Button
+        android:id="@+id/btn_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/btn_woman"
+        android:text="지출"
+        android:textColor="@color/colorPrimaryDark"
+        android:theme="@style/RaisedButton"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btn_woman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="OOO님"
+        android:textColor="@color/colorWhite"
+        android:theme="@style/RaisedButton"
+        tools:ignore="HardcodedText" />
+
+
+    <Button
+        android:id="@+id/btn_man"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_toRightOf="@+id/btn_woman"
+        android:text="수익"
+        android:textColor="@color/colorGrey"
+        android:theme="@style/RaisedButton"
+        tools:ignore="HardcodedText" />
+
+////지출과 수익의 컬러는 다르게 표현
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:fitsSystemWindows="true">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="56dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="24dp"
+                android:padding="12dp"
+                android:text="결혼 지출OOO원/수익OOO원  "
+                android:id="@+id/btn_payment"
+                android:textColor="@color/colorWhite"
+                android:theme="@style/RaisedButton"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="24dp"
+                android:padding="12dp"
+                android:text="부조금 지출OOO원/수익OOO원"
+                android:id="@+id/btn_RPlist"
+                android:textColor="@color/colorWhite"
+                android:theme="@style/RaisedButton"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="24dp"
+                android:padding="12dp"
+                android:text="돌잔치 지출OOO원/수익OOO원"
+                android:id="@+id/btn_invite"
+                android:textColor="@color/colorWhite"
+                android:theme="@style/RaisedButton"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

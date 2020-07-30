@@ -13,63 +13,53 @@
         android:paddingRight="24dp"
         android:focusable="true"
         android:focusableInTouchMode="true">
-
-        />   <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:layout_marginBottom="24dp"
-        android:padding="12dp"
-        android:text="이달의 결혼식"
-        android:id="@+id/btn_tmw"
-        android:textColor="@color/colorWhite"
-        android:theme="@style/RaisedButton"
-        />
+        <ImageView
+            android:id="@+id/set_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="25dp"
+            android:onClick="onClick"
+            android:src="@drawable/icon_man" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
+            android:layout_marginTop="24dp"
             android:layout_marginBottom="24dp"
             android:padding="12dp"
-            android:text="축의금 내기"
-            android:id="@+id/btn_payment"
+            android:text="앱버전xxx"
+            android:id="@+id/btn_appversion"
             android:textColor="@color/colorWhite"
             android:theme="@style/RaisedButton"
             />
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
+            android:layout_marginTop="24dp"
             android:layout_marginBottom="24dp"
             android:padding="12dp"
-            android:text="화환 보내기"
-            android:id="@+id/btn_sendflower"
+            android:text="이용약관"
+            android:id="@+id/btn_agreement"
             android:textColor="@color/colorWhite"
             android:theme="@style/RaisedButton"
             />
+        ////이용약관을 누르면 약관을 보여줌
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
+            android:layout_marginTop="24dp"
             android:layout_marginBottom="24dp"
             android:padding="12dp"
-            android:text="친구에게 공유"
-            android:id="@+id/btn_sharefriends"
+            android:text="회원탈퇴"
+            android:id="@+id/btn_logout"
             android:textColor="@color/colorWhite"
             android:theme="@style/RaisedButton"
             />
-        <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
-            android:layout_marginBottom="24dp"
-            android:padding="12dp"
-            android:text="청첩장 보내기"
-            android:id="@+id/btn_sednweddingcard"
-            android:textColor="@color/colorWhite"
-            android:theme="@style/RaisedButton"
-            />
+///바로 회원 탈퇴가 됨.
 
     </LinearLayout>
+
+
 </ScrollView>

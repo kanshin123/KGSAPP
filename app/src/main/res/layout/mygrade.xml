@@ -14,30 +14,27 @@
         android:focusable="true"
         android:focusableInTouchMode="true">
 
-        />   <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:layout_marginBottom="24dp"
-        android:padding="12dp"
-        android:text="내 등급 설정"
-        android:id="@+id/btn_gradeset"
-        android:textColor="@color/colorWhite"
-        android:theme="@style/RaisedButton"
-        />
-
-        <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
+        <ImageView
+            android:id="@+id/set_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
             android:layout_marginBottom="24dp"
-            android:padding="12dp"
-            android:text="지인등급 확인"
-            android:id="@+id/btn_gradecheck"
-            android:textColor="@color/colorWhite"
-            android:theme="@style/RaisedButton"
-            />
+            android:layout_marginTop="25dp"
+            android:onClick="onClick"
+            android:src="@등급에 맞는 알파벳을 보여줘야함" />
 
+
+
+        <TextView
+            android:id="@+id/set_link_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="당신의 경조비는 OOO원이 적절합니다."
+            android:textSize="16dip"
+            android:gravity="center"/>
 
     </LinearLayout>
+
 </ScrollView>

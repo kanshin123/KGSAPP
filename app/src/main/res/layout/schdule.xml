@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    >
+
+    <CalendarView
+
+        android:id="@+id/calendar"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="0px"
+
+        android:layout_weight="1"
+
+        />
+
+    <CalendarView
+
+        android:layout_width="match_parent"
+
+        android:layout_height="0px"
+
+        android:layout_weight="1"
+
+        android:minDate="04/01/2013"
+
+        android:maxDate="12/31/2013"
+
+        android:focusedMonthDateColor="#ff0000"
+
+        android:unfocusedMonthDateColor="#0000ff"
+
+        android:selectedWeekBackgroundColor="#ffff00"
+
+        android:showWeekNumber="false"
+
+        android:weekSeparatorLineColor="#00ff00"
+
+        />
+
+
+
+</LinearLayout>
+
+
+
+    출처: https://gakari.tistory.com/entry/안드로이드-CalendarView로-쉽게-달력을-만들자 [가카리의 공부방]
+java 코드는 해당 블로그 참고.
