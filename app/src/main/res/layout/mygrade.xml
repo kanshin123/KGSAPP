@@ -22,7 +22,7 @@
             android:layout_marginBottom="24dp"
             android:layout_marginTop="25dp"
             android:onClick="onClick"
-            android:src="@등급에 맞는 알파벳을 보여줘야함" />
+            android:src="A" />
 
 
 

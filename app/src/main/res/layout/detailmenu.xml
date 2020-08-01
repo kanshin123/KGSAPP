@@ -13,8 +13,9 @@
         android:paddingRight="24dp"
         android:focusable="true"
         android:focusableInTouchMode="true">
+        />
 
-        />   <androidx.appcompat.widget.AppCompatButton
+        <androidx.appcompat.widget.AppCompatButton
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -39,6 +40,7 @@
             />
 ///나의 등급을 클릭하면 등급을 측정하는 페이지로 이동 후
         본인의 등급을 확인 할 수 있음.
+
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
