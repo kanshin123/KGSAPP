@@ -11,7 +11,7 @@
         android:id="@+id/btn_all"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toLeftOf="@+id/btn_woman"
+        android:layout_toLeftOf="@+id/btn_account"
         android:text="상세정보"
         android:textColor="@color/colorWhite"
         android:theme="@style/RaisedButton"
@@ -19,7 +19,7 @@
 
 ///
     <Button
-        android:id="@+id/btn_woman"
+        android:id="@+id/btn_account"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -34,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="16dp"
-        android:layout_toRightOf="@+id/btn_woman"
+        android:layout_toRightOf="@+id/btn_account"
         android:text="내정보"
         android:textColor="@color/colorWhite"
         android:theme="@style/RaisedButton"
