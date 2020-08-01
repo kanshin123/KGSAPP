@@ -14,15 +14,6 @@
         android:focusable="true"
         android:focusableInTouchMode="true">
 
-        <ImageView
-            android:id="@+id/set_image"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="24dp"
-            android:layout_marginTop="25dp"
-            android:onClick="onClick"
-            android:src="@등급에 맞는 알파벳을 보여줘야함" />
 
 
 
