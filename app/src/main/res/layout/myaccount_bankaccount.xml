@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <ImageView
-        android:id="@+id/bankaccount"
+        android:id="@+id/myaccount_bankaccount"
         android:layout_width="420dp"
         android:layout_height="745dp"
         android:layout_gravity="center_horizontal"

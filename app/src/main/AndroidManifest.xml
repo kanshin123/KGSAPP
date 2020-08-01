@@ -45,13 +45,16 @@
             android:name=".myaccount"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".bankaccount"
+            android:name=".myaccount_bankaccount"
             android:screenOrientation="portrait" />
         <activity
             android:name=".detailmenu"
             android:screenOrientation="portrait" />
         <activity
             android:name=".mygrade"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".myaccount_charge"
             android:screenOrientation="portrait" />
     </application>
 
