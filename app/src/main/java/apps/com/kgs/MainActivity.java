@@ -35,6 +35,17 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
         );
+        findViewById(R.id.btn_detail).setOnClickListener(
+                new Button.OnClickListener() {
+                    public void onClick(View v) {
+                        Intent myaccountActivity = new Intent(MainActivity.this, detailmenu.class);
+
+                        startActivity(myaccountActivity);
+
+
+                    }
+                }
+        );
 
 
 

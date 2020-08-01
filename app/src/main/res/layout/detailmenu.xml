@@ -34,7 +34,7 @@
             android:layout_marginBottom="24dp"
             android:padding="12dp"
             android:text="나의 등급"
-            android:id="@+id/mygrade"
+            android:id="@+id/btn_mygrade"
             android:textColor="@color/colorWhite"
             android:theme="@style/RaisedButton"
             />

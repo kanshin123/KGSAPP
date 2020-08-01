@@ -47,6 +47,12 @@
         <activity
             android:name=".bankaccount"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".detailmenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mygrade"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
