@@ -145,7 +145,7 @@ public class register extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        // Intent intent = new Intent(getApplicationContext(), MainActivity.class); // 다음 넘어갈 클래스 지정
+        // Intent intent = new Intent(getApplicationContext(), mainactivity.class); // 다음 넘어갈 클래스 지정
         // startActivity(intent);
         // super.onBackPressed();
         moveTaskToBack(true);

@@ -108,7 +108,7 @@ public class SplashActivity extends AppCompatActivity {
             //d("위치정보 : ", provider + "경도:" + longitude + "위도:" + latitude + "고도:" + altitude + "정확도:" + accuracy);
 
             //Intent intent = new Intent();
-            //ComponentName name = new ComponentName("apps.minatalk.net.minatalk", "apps.minatalk.net.minatalk.MainActivity");
+            //ComponentName name = new ComponentName("apps.minatalk.net.minatalk", "apps.minatalk.net.minatalk.mainactivity");
             //intent.setComponent(name);
 
             lon = Double.toString(longitude);
@@ -132,7 +132,7 @@ public class SplashActivity extends AppCompatActivity {
                 SharedPreferences location1 = getSharedPreferences("location", MODE_PRIVATE);
                 SharedPreferences.Editor editor = location1.edit();
                 editor.putString("lon", lon); //First라는 key값으로 infoFirst 데이터를 저장한다.
-                editor.putString("lat", lat); //Second라는 key값으로 infoSecond 데이터를 저장한다.
+                editor.putString("lat", lat); //Second라는 key값으로 infoSecond 데이터를 저장한다
                 editor.putString("uuid", deviceId); //고유번호 안드로이드 아이디
                 editor.putString("logincheck", "1");
                 editor.commit(); //완료한다.
