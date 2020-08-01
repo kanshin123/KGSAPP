@@ -14,10 +14,10 @@ public class myaccount extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.myaccount);
 
-        findViewById(R.id.btn_charge).setOnClickListener(
+        findViewById(R.id.Cconnection).setOnClickListener(
                 new Button.OnClickListener() {
                     public void onClick(View v) {
-                        Intent myaccountActivity = new Intent(myaccount.this, bankaccount.class);
+                        Intent myaccountActivity = new Intent(myaccount.this, myaccount_bankaccount.class);
 
                         startActivity(myaccountActivity);
 
@@ -26,6 +26,19 @@ public class myaccount extends AppCompatActivity {
                 }
         );
 
+
+        findViewById(R.id.btn_account).setOnClickListener(
+                new Button.OnClickListener() {
+                    public void onClick(View v) {
+                        Intent myaccountActivity = new Intent(myaccount.this, myaccount_charge.class);
+
+                        startActivity(myaccountActivity);
+
+
+                    }
+                }
+        );
     }
+
 
 }

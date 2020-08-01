@@ -53,9 +53,6 @@
         <activity
             android:name=".mygrade"
             android:screenOrientation="portrait" />
-        <activity
-            android:name=".mygrade_result"
-            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
