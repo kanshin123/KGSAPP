@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class mygrade_result extends AppCompatActivity {
+public class detailmenu_mygrade2 extends AppCompatActivity {
     private EditText sailary;
     private EditText housecheck;
     private EditText carcheck;
@@ -18,7 +18,7 @@ public class mygrade_result extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mygrade_result);
+        setContentView(R.layout.detailmenu_mygrade2);
 
 
 

@@ -46,6 +46,17 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
         );
+        findViewById(R.id.btn_info).setOnClickListener(
+                new Button.OnClickListener() {
+                    public void onClick(View v) {
+                        Intent myaccountActivity = new Intent(MainActivity.this, info.class);
+
+                        startActivity(myaccountActivity);
+
+
+                    }
+                }
+        );
 
 
 

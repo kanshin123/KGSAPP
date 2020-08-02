@@ -51,10 +51,25 @@
             android:name=".detailmenu"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".mygrade"
+            android:name=".detailmenu_mygrade"
             android:screenOrientation="portrait" />
         <activity
             android:name=".myaccount_charge"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".myaccount_charge2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".detailmenu_mygrade2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".detailmenu_schedule"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".info_agreementpic"
             android:screenOrientation="portrait" />
     </application>
 

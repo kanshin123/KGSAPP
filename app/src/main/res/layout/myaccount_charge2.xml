@@ -17,9 +17,16 @@
         />    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="변경계좌 정보입력"
-        android:id="@+id/changeaccount"
+        android:hint="현재 계좌번호"
+        android:id="@+id/nowaccount"
         />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="변경계좌 정보입력"
+            android:id="@+id/changeaccount"
+            />
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="fill_parent"

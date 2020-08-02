@@ -60,7 +60,7 @@
             android:layout_marginBottom="24dp"
             android:padding="12dp"
             android:text="스케쥴"
-            android:id="@+id/shcedule"
+            android:id="@+id/schedule"
             android:textColor="@color/colorWhite"
             android:theme="@style/RaisedButton"
             />

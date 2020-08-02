@@ -19,7 +19,7 @@ import com.androidquery.callback.AjaxStatus;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-public class mygrade extends AppCompatActivity {
+public class detailmenu_mygrade extends AppCompatActivity {
     private EditText sailary;
     private EditText housecheck;
     private EditText carcheck;
@@ -29,9 +29,9 @@ public class mygrade extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.question);
+        setContentView(R.layout.detailmenu_mygrade);
 
-        Log.d("question", "question");
+        Log.d("detailmenu_mygrade", "detailmenu_mygrade");
         sailary = (EditText) findViewById(R.id.sailary);
         housecheck = (EditText) findViewById(R.id.housecheck);
         carcheck = (EditText) findViewById(R.id.carcheck);
@@ -56,26 +56,26 @@ public class mygrade extends AppCompatActivity {
                     //Toast.makeText(login.this, "닉네임확인"+nicname.getText().toString(), Toast.LENGTH_SHORT).show();
                     // 닉네임 입력 확인
                     if (sailary.getText().toString().length() == 0) {
-                        Toast.makeText(mygrade.this, "당신의 연봉을 입려해주세요", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(detailmenu_mygrade.this, "당신의 연봉을 입려해주세요", Toast.LENGTH_SHORT).show();
                         sailary.requestFocus();
                         return;
                     }
 
                     // 인사말 입력 확인
                     if (housecheck.getText().toString().length() == 0) {
-                        Toast.makeText(mygrade.this, "자가입력을 꼭 해주세요.", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(detailmenu_mygrade.this, "자가입력을 꼭 해주세요.", Toast.LENGTH_SHORT).show();
                         housecheck.requestFocus();
                         return;
                     }
 
                     if (carcheck.getText().toString().length() == 0) {
-                        Toast.makeText(mygrade.this, "자동차 종류를 입력해주세요", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(detailmenu_mygrade.this, "자동차 종류를 입력해주세요", Toast.LENGTH_SHORT).show();
                         carcheck.requestFocus();
                         return;
                     }
 
                     if (consume.getText().toString().length() == 0) {
-                        Toast.makeText(mygrade.this, "한달 소비량을 넣어주세요", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(detailmenu_mygrade.this, "한달 소비량을 넣어주세요", Toast.LENGTH_SHORT).show();
                         consume.requestFocus();
                         return;
                     }
@@ -147,7 +147,7 @@ public class mygrade extends AppCompatActivity {
 
                                     ////가입 버튼을 누르면 마지막 이곳에서 이미지 업로드 실행 하는게 맞는것같음/////
 
-                                    Intent intent = new Intent(getApplicationContext(),mygrade_result.class); // 다음 넘어갈 클래스 지정
+                                    Intent intent = new Intent(getApplicationContext(), detailmenu_mygrade2.class); // 다음 넘어갈 클래스 지정
                                     startActivity(intent); // 다음 화면으로 넘어간다
 
                                 }
