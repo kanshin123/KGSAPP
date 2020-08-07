@@ -6,7 +6,6 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <!--폴더 읽고 쓰기 선언 및 카메라 관련 퍼미션-->
-    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -70,6 +69,72 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".info_agreementpic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payment_wedding"
+            android:screenOrientation="portrait" />
+        <activity
+        android:name=".payment_wedding2"
+        android:screenOrientation="portrait" />
+        <activity
+            android:name=".payment_wedding3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payment_wedding4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payment_wedding5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payment_wedding_invite2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payment_wedding_invite"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payment_wedding_flower"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payment_babybirth"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payment_babybirth2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payment_babybirth3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payment_babybirth4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payment_babybirth5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payment_babybirth_flower"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payment_babybirth_invite"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payment_babybirth_invite2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payment_goods"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payment_goods2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payment_goods3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payment_goods_flower"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".patment_goods_noti"
             android:screenOrientation="portrait" />
     </application>
 

@@ -20,8 +20,8 @@
         android:layout_marginTop="24dp"
         android:layout_marginBottom="24dp"
         android:padding="12dp"
-        android:text="0월0일 000일결혼식"
-        android:id="@+id/btn_paywedding"
+        android:text="정보확인"
+        android:id="@+id/btn_babyinfocheck"
         android:textColor="@color/colorWhite"
         android:theme="@style/RaisedButton"
         />
@@ -32,8 +32,8 @@
             android:layout_marginTop="1dp"
             android:layout_marginBottom="24dp"
             android:padding="12dp"
-            android:text="0월0일 000일결혼식"
-            android:id="@+id/btn_paywedding2"
+            android:text="축의금 보내기"
+            android:id="@+id/btn_babybirthpay"
             android:textColor="@color/colorWhite"
             android:theme="@style/RaisedButton"
             />

@@ -20,8 +20,8 @@
         android:layout_marginTop="24dp"
         android:layout_marginBottom="24dp"
         android:padding="12dp"
-        android:text="결혼식 정보"
-        android:id="@+id/btn_wddinginfo"
+        android:text="정보확인"
+        android:id="@+id/btn_infocheck"
         android:textColor="@color/colorWhite"
         android:theme="@style/RaisedButton"
         />
@@ -32,8 +32,8 @@
             android:layout_marginTop="1dp"
             android:layout_marginBottom="24dp"
             android:padding="12dp"
-            android:text="축의금 내기"
-            android:id="@+id/btn_payment"
+            android:text="축의금 보내기"
+            android:id="@+id/btn_weddingpay"
             android:textColor="@color/colorWhite"
             android:theme="@style/RaisedButton"
             />
