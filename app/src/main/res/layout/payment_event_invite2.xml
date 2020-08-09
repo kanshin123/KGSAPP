@@ -14,17 +14,18 @@
         android:focusable="true"
         android:focusableInTouchMode="true">
 
-        />   <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:layout_marginBottom="24dp"
-        android:padding="12dp"
-        android:text="결혼"
-        android:id="@+id/btn_wedding"
-        android:textColor="@color/colorWhite"
-        android:theme="@style/RaisedButton"
         />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:text="홍길동"
+            android:id="@+id/홍길동2"
+            android:textColor="@color/colorWhite"
+            android:theme="@style/RaisedButton"
+            />
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="fill_parent"
@@ -32,30 +33,20 @@
             android:layout_marginTop="1dp"
             android:layout_marginBottom="24dp"
             android:padding="12dp"
-            android:text="부의"
-            android:id="@+id/btn_OCM"
+            android:text="여진구"
+            android:id="@+id/여진구2"
             android:textColor="@color/colorWhite"
             android:theme="@style/RaisedButton"
             />
+
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="1dp"
             android:layout_marginBottom="24dp"
             android:padding="12dp"
-            android:text="돌"
-            android:id="@+id/btn_dol"
-            android:textColor="@color/colorWhite"
-            android:theme="@style/RaisedButton"
-            />
-        <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
-            android:layout_marginBottom="24dp"
-            android:padding="12dp"
-            android:text="각종기념"
-            android:id="@+id/btn_event"
+            android:text="김수현"
+            android:id="@+id/김수현3"
             android:textColor="@color/colorWhite"
             android:theme="@style/RaisedButton"
             />

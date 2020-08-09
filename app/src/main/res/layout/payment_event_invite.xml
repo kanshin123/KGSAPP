@@ -18,7 +18,7 @@
             android:id="@+id/getflower"
             android:layout_width="match_parent"
             android:layout_height="240dp"
-            android:hint="돌잔치 알림" />
+            android:hint="잔치 알림" />
 
 
         <androidx.appcompat.widget.AppCompatButton
@@ -28,7 +28,7 @@
             android:layout_marginBottom="24dp"
             android:padding="12dp"
             android:text="보내기"
-            android:id="@+id/btn_sendbaby1"
+            android:id="@+id/btn_eventinvite1"
             android:textColor="@color/colorWhite"
             android:theme="@style/RaisedButton"
             />

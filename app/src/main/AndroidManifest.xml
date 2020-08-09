@@ -134,7 +134,28 @@
             android:name=".payment_goods_flower"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".patment_goods_noti"
+        android:name=".patment_goods_noti"
+        android:screenOrientation="portrait" />
+        <activity
+            android:name=".payment_event"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payment_event2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payment_event3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payment_event4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payment_event_flower"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payment_event_invite"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payment_event_invite2"
             android:screenOrientation="portrait" />
     </application>
 

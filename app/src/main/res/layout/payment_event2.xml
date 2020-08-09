@@ -20,8 +20,8 @@
         android:layout_marginTop="24dp"
         android:layout_marginBottom="24dp"
         android:padding="12dp"
-        android:text="결혼"
-        android:id="@+id/btn_wedding"
+        android:text="0월0일 000일 잔치"
+        android:id="@+id/btn_event1"
         android:textColor="@color/colorWhite"
         android:theme="@style/RaisedButton"
         />
@@ -32,30 +32,8 @@
             android:layout_marginTop="1dp"
             android:layout_marginBottom="24dp"
             android:padding="12dp"
-            android:text="부의"
-            android:id="@+id/btn_OCM"
-            android:textColor="@color/colorWhite"
-            android:theme="@style/RaisedButton"
-            />
-        <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
-            android:layout_marginBottom="24dp"
-            android:padding="12dp"
-            android:text="돌"
-            android:id="@+id/btn_dol"
-            android:textColor="@color/colorWhite"
-            android:theme="@style/RaisedButton"
-            />
-        <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
-            android:layout_marginBottom="24dp"
-            android:padding="12dp"
-            android:text="각종기념"
-            android:id="@+id/btn_event"
+            android:text="0월0일 000일 잔치"
+            android:id="@+id/btn_event2"
             android:textColor="@color/colorWhite"
             android:theme="@style/RaisedButton"
             />
