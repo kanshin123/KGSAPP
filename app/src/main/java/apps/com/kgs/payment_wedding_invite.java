@@ -13,7 +13,7 @@ public class payment_wedding_invite  extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.payment_wedding_invite);
-        findViewById(R.id.btn_send).setOnClickListener(
+        findViewById(R.id.btn_send1).setOnClickListener(
                 new Button.OnClickListener() {
                     public void onClick (View v){
                         Intent myaccountActivity = new Intent(payment_wedding_invite.this, payment_wedding_invite2.class);

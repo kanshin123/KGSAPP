@@ -89,6 +89,9 @@
             android:name=".payment_wedding5"
             android:screenOrientation="portrait" />
         <activity
+            android:name=".payment_wedding6"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".payment_wedding_invite2"
             android:screenOrientation="portrait" />
         <activity
