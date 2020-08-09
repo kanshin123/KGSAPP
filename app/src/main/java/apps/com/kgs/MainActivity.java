@@ -70,6 +70,27 @@ public class MainActivity extends AppCompatActivity {
                 }
         );
 
+        findViewById(R.id.btn_invite).setOnClickListener(
+                new Button.OnClickListener() {
+                    public void onClick(View v) {
+                        Intent myaccountActivity = new Intent(MainActivity.this, connection_friends.class);
 
+                        startActivity(myaccountActivity);
+
+
+                    }
+                }
+        );
+        findViewById(R.id.btn_invite).setOnClickListener(
+                new Button.OnClickListener() {
+                    public void onClick(View v) {
+                        Intent myaccountActivity = new Intent(MainActivity.this, connection_friends.class);
+
+                        startActivity(myaccountActivity);
+
+
+                    }
+                }
+        );
     }
 }

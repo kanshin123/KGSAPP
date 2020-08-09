@@ -157,6 +157,12 @@
         <activity
             android:name=".payment_event_invite2"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".connection_friends"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".connection_friends2"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
