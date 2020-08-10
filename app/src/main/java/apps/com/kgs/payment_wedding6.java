@@ -90,15 +90,16 @@ public class payment_wedding6 extends AppCompatActivity {
                             for (int i = 0; i < arrData.length(); i++) {
                                 JSONObject getlist = arrData.getJSONObject(i);
                                 String logincheck = getlist.getString("y");
-                                final String uid = getlist.getString("uid");
+                                Log.d("logincheck", getlist.getString("y"));
+                                //final String uid = getlist.getString("uid");
                                 Log.d("resultFor", logincheck);
-                                Log.d("uidresult", uid);
+                                //Log.d("uidresult", uid);
                                 if (logincheck.equals("0")) {
                                     SharedPreferences location1 = getSharedPreferences("location", MODE_PRIVATE);
                                     SharedPreferences.Editor editor = location1.edit();
                                     editor.putString("cash", "1000"); //First라는 key값으로 infoFirst 데이터를 저장한다.
                                     editor.putString("point", "10000"); //First라는 key값으로 infoFirst 데이터를 저장한다.
-                                    editor.putString("uid", uid); //디비의 고유 번호를 가져온다.
+                                    //editor.putString("uid", uid); //디비의 고유 번호를 가져온다.
                                     editor.putString("sex", "0");
                                     editor.putString("age", "1");
                                     editor.putString("mscount", "0");
@@ -106,7 +107,7 @@ public class payment_wedding6 extends AppCompatActivity {
                                     editor.commit();
 
 
-                                    Toast.makeText(getApplicationContext(), getString(R.string.toast14), Toast.LENGTH_LONG).show();
+                                    Toast.makeText(getApplicationContext(), "송금완료", Toast.LENGTH_LONG).show();
 
                                     ////가입 버튼을 누르면 마지막 이곳에서 이미지 업로드 실행 하는게 맞는것같음/////
 
