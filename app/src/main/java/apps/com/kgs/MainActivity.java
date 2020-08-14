@@ -92,5 +92,16 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
         );
+        findViewById(R.id.btn_RPlist).setOnClickListener(
+                new Button.OnClickListener() {
+                    public void onClick(View v) {
+                        Intent myaccountActivity = new Intent(MainActivity.this, revenuecheck.class);
+
+                        startActivity(myaccountActivity);
+
+
+                    }
+                }
+        );
     }
 }

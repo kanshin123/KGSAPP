@@ -169,6 +169,15 @@
         <activity
             android:name=".payment_babybirth6"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".payment_event5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".payment_goods4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".revenuecheck"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
