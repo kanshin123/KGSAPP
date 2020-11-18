@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="apps.KGSAPP.net.KGSAPP">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!--폴더 읽고 쓰기 선언 및 카메라 관련 퍼미션-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.Manifest.permission.READ_PHONE_STATE" />
+
+
+
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+
+    <!--푸쉬관련 설정-->
+    <!---->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="apps.KGSAPP.net.KGSAPP.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TAppTheme.NoActionBar">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
+        </activity>
+        <activity
+            android:name="apps.KGSAPP.net.KGSAPP.MainActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity
+            android:name="apps.KGSAPP.net.KGSAPP.policy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="apps.KGSAPP.net.KGSAPP.login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="apps.KGSAPP.net.KGSAPP.HttpUpLoad"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="apps.KGSAPP.net.KGSAPP.ChatPage_Fragment"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <!--android:windowSoftInputMode="adjustPan" />-->
+
+        <activity
+            android:name="apps.KGSAPP.net.KGSAPP.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name="apps.KGSAPP.net.KGSAPP.BoardWrite"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="apps.KGSAPP.net.KGSAPP.Notice"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="apps.KGSAPP.net.KGSAPP.Information_Main"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="apps.KGSAPP.net.KGSAPP.FnqActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="apps.KGSAPP.net.KGSAPP.Setting"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.soundcloud.android.crop.CropImageActivity" />
+
+
+            <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+            <meta-data
+                android:name="com.google.android.gms.ads.APPLICATION_ID"
+                android:value="ca-app-pub-1873683360216447~6990939416"/>
+
+
+        <service android:name="apps.KGSAPP.net.KGSAPP.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service android:name="apps.KGSAPP.net.KGSAPP.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+
+<!--
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="apps.minatalk.net.minatalk"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+-->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+
+    </application>
+
+</manifest>

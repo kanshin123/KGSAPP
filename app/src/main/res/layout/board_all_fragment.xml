@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/board_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/board_container1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="7">
+
+        <fragment
+            android:id="@+id/board_fragment1"
+            android:name="apps.KGSAPP.net.KGSAPP.BoardTitleFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/board_container2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="93">
+
+        <fragment
+            android:id="@+id/board_fragment2"
+            android:name="apps.KGSAPP.net.KGSAPP.BoardContentFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?android:attr/selectableItemBackground"
+    android:padding="5dp">
+
+    <Button
+        android:id="@+id/board_btn_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="@string/board1"
+        android:textColor="@color/colorWhite"
+        android:theme="@style/RaisedButton"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Button
+        android:id="@+id/board_btn_today"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/board_btn_all"
+        android:text="@string/board2"
+        android:textColor="@color/colorWhite"
+        android:theme="@style/RaisedButton"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/board_btn_weeks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/board_btn_today"
+        android:text="@string/board3"
+        android:textColor="@color/colorWhite"
+        android:theme="@style/RaisedButton"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/board_btn_my"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/board_btn_weeks"
+        android:layout_centerHorizontal="true"
+        android:textSize="9dp"
+        android:text="@string/board4"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:theme="@style/RaisedButton"
+        tools:ignore="HardcodedText" />
+    <!--
+
+    <Button
+        android:id="@+id/board_btn_write"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="@dimen/md_keylines"
+        android:layout_toRightOf="@+id/board_btn_my"
+        android:text="@string/board5"
+        android:textColor="@color/colorWhite"
+        android:textSize="5sp"
+        android:theme="@style/RaisedButton"
+        tools:ignore="HardcodedText" />
+
+    -->
+
+</RelativeLayout>

@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">みなトーク</string>
+    <string name="action_settings">Settings</string>
+    <string name="item_title">ガルニエ</string>
+    <string name="item_desc">The Palais Garnier which locates in Paris was built from 1861 for
+        the Paris Opera.
+    </string>
+    <string name="detail_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+    </string>
+    <string name="detail_location">"8 Rue Scribe, 75009 Paris, France"</string>
+    <string name="title_activity_login">Sign up</string>
+
+    <string name="input_hint">Message..</string>
+    <string name="send">Send</string>
+    <string name="attach">Add attachment</string>
+    <!-- Delivery status -->
+    <string name="sending">Sending</string>
+    <string name="sent">Sent</string>
+    <string name="seen">Seen</string>
+    <string name="error">Error</string>
+    <string name="options">Options</string>
+    <string name="clear_messages">Clear Messages</string>
+    <string name="send_picture">Send Picture</string>
+    <string name="default_time_text">10:30 AM</string>
+    <string name="unknown">Unknown</string>
+    <string name="default_text_long">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </string>
+    <string name="default_text_short">Hello!!</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="default_date_cell_text">2016/08/08</string>
+
+
+    <!--admob-->
+    <string name="test_banner_ad_unit_id">ca-app-pub-1873683360216447~6990939416</string>
+
+
+    <string name="mian_list1">周辺の友人</string>
+    <string name="mian_list2">書き込み</string>
+    <string name="mian_list3">チャット</string>
+    <string name="sex">性別</string>
+    <string name="age">年齢</string>
+    <string name="age1">歳</string>
+    <string name="nickname">ニックネーム</string>
+    <string name="greetings">ご挨拶</string>
+    <string name="choice">選択してください</string>
+    <string name="choice1">男</string>
+    <string name="choice2">女性</string>
+
+    <!-- 주변친구-->
+    <string name="around1">全体</string>
+    <string name="around2">女性</string>
+    <string name="around3">男</string>
+
+    <!-- 펼침메뉴-->
+    <string name="sidemenu1">お知らせ</string>
+    <string name="sidemenu2">よくある質問</string>
+    <string name="sidemenu3">利用規約および個人情報保護ポリシー</string>
+    <string name="sidemenu4">メールでのお問い合わせ</string>
+
+    <!-- 게시판-->
+    <string name="board1">全体</string>
+    <string name="board2">今日</string>
+    <string name="board3">1週間</string>
+    <string name="board4">個人スレッド</string>
+    <string name="board5">書き込み</string>
+    <!-- 게시판 글작성 -->
+    <string name="board6">周辺情報の書き込み</string>
+    <string name="board7">内容を入力してください。</string>
+    <string name="board8">作成完了</string>
+    <string name="board9">スレッドがありません！</string>
+    <string name="board10">スレッドを削除しますか？</string>
+    <string name="board11">スレッドが削除されました。</string>
+    <string name="board12">削除する</string>
+
+    <!-- 채팅-->
+    <string name="chatting1">送信</string>
+    <string name="chatting2">受ける</string>
+    <string name="chatting3">送信</string>
+    <string name="chatting4">チャットを削除しますか？</string>
+    <string name="chatting5">チャットが削除されました。</string>
+
+    <!-- 공지사항-->
+    <string name="notice1">お知らせ</string>
+    <string name="notice2">よくある質問</string>
+    <string name="notice3">利用規約</string>
+
+    <!-- Toast message-->
+    <string name="toast1">キャンセル</string>
+    <string name="toast2">みなトーク終了</string>
+    <string name="toast3">ボタンを押しました。</string>
+    <string name="toast4">確認</string>
+    <string name="toast5">自分にはメッセージを送られません。</string>
+    <string name="toast6">カメラ機能が有効になりました。</string>
+    <string name="toast7">カメラ機能を拒否しました。</string>
+    <string name="toast8">サービス機能を許可していませんでした。</string>
+    <string name="toast9">設定で許可してください。</string>
+    <string name="toast10">ニックネームは必須です。</string>
+    <string name="toast11">性別を選択してください。</string>
+    <string name="toast12">挨拶は必須です。</string>
+    <string name="toast13">年齢を選択してください。</string>
+    <string name="toast14">登録完了</string>
+    <string name="toast15">位置情報を収集します。</string>
+    <string name="toast16">位置情報利用が許可されていません。</string>
+    <string name="toast17">位置情報利用が出来ない場合にサービスを利用することができません。</string>
+    <string name="toast18">位置情報を取得することができません。</string>
+    <string name="toast19">GPSを確認お願いします</string>
+    <string name="toast20">みなトークを終了します。</string>
+    <string name="toast21">内容は必須です。</string>
+    <string name="toast22">メッセージ送信完了</string>
+    <string name="toast23">自分は申告することができません。</string>
+    <string name="toast24">虚偽申告は不利益を受けることができます。</string>
+    <string name="toast25">申告の届出が受理されました。</string>
+    <string name="toast26">報告する</string>
+    <string name="toast27">アップデートが必要です。</string>
+
+    <!-- 회원가입-->
+    <string name="login1">写真選択</string>
+    <string name="login2">会員修正</string>
+    <string name="login3">アルバム選択</string>
+    <string name="login4">写真撮影</string>
+    <string name="login5">同意</string>
+    <string name="login6">会員登録</string>
+    <string name="login7">修正完了</string>
+
+</resources>

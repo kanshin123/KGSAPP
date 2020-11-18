@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1007119510535",
+    "firebase_url": "https://minatalk-155516.firebaseio.com",
+    "project_id": "minatalk-155516",
+    "storage_bucket": "minatalk-155516.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007119510535:android:263491fd926f804f",
+        "android_client_info": {
+          "package_name": "apps.minatalk.net.minatalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007119510535-ovt1vbqlnv4heb02ih1iccai40roe6ao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVIqLy-1PC8nzh_kdUji7xQmoc2NgbaUE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
